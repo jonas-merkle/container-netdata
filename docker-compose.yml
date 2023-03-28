@@ -5,7 +5,7 @@ services:
 
   # cloudflare tunnel
   netdata:
-    image: netdata/netdata:edge
+    image: netdata/netdata:stable
     container_name: netdata
     hostname: ${NETDATA_CONT_HOSTNAME}
     restart: unless-stopped
